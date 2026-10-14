@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Arc Reactor Ring -->
+    <path
+        android:strokeColor="#00F0FF"
+        android:strokeWidth="2.5"
+        android:fillColor="#00000000"
+        android:pathData="M 54,26 A 28,28 0 1 0 54,82 A 28,28 0 1 0 54,26" />
+
+    <!-- High Tech Segment Blocks (Triangular & Angular Chunks) -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M 52,23 L 56,23 L 55,27 L 53,27 Z
+                          M 52,81 L 56,81 L 55,85 L 53,85 Z
+                          M 23,52 L 23,56 L 27,55 L 27,53 Z
+                          M 81,52 L 81,56 L 85,55 L 85,53 Z" />
+
+    <!-- Diagonal Arc Accents -->
+    <path
+        android:strokeColor="#00B4D8"
+        android:strokeWidth="2.0"
+        android:fillColor="#00000000"
+        android:pathData="M 36,36 L 41,41 M 72,36 L 67,41 M 36,72 L 41,67 M 72,72 L 67,67" />
+
+    <!-- Middle Glowing Ring -->
+    <path
+        android:strokeColor="#7000F0FF"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000"
+        android:pathData="M 54,34 A 20,20 0 1 0 54,74 A 20,20 0 1 0 54,34" />
+
+    <!-- Inner Core Ring -->
+    <path
+        android:strokeColor="#00F0FF"
+        android:strokeWidth="2.0"
+        android:fillColor="#1500F0FF"
+        android:pathData="M 54,42 A 12,12 0 1 0 54,66 A 12,12 0 1 0 54,42" />
+
+    <!-- Arc Reactor Core Center Glow (Inner triangle and dot) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 54,46 L 61,58 L 47,58 Z" />
+
+    <path
+        android:fillColor="#00F0FF"
+        android:pathData="M 54,51 A 3,3 0 1 0 54,57 A 3,3 0 1 0 54,51" />
+</vector>
